@@ -17,7 +17,7 @@ public class ReverseArrayElements {
 		System.out.println("Reverse elements in a range "+ Arrays.toString(revElementsINSpeciefiedRange(arr,1,2)));
 	}
 
-	private static int[] revElementsINSpeciefiedRange(int[] arr,int a,int b) {
+	public static int[] revElementsINSpeciefiedRange(int[] arr,int a,int b) {
 		int startIdx = a;
 		int endIdx = b;
 		int temp =0;
