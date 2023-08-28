@@ -3,7 +3,7 @@ package com.venkatSca.IntroDSA;
 public class CountTheNumberOfFactors {
 
 	public static void main(String[] args) {
-		System.out.println(countTheFactors(9));
+		System.out.println(countTheFactors(100));
 	}
 
 	public static int countTheFactors(int number) {
@@ -47,10 +47,10 @@ public class CountTheNumberOfFactors {
  * number = 100
  * i     number/i
  * ------------------------
- * 1 -- 100   ==> count = +2 n%i = 0 && number != number%i
- * 2 -- 50	  ==> count = +2 n%i = 0 && number != number%i
- * 4 -- 25    ==> count = +2 n%i = 0 && number != number%i
- * 5 -- 20    ==> count = +2 n%i = 0 && number != number%i
+ * 1 -- 100   ==> count = +2 n%i = 0 && i != number%i
+ * 2 -- 50	  ==> count = +2 n%i = 0 && i != number%i
+ * 4 -- 25    ==> count = +2 n%i = 0 && i != number%i
+ * 5 -- 20    ==> count = +2 n%i = 0 && i != number%i
  * 10 --10    ==> count = +1   
  * 
  *
