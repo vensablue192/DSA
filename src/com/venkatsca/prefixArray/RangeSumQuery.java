@@ -22,8 +22,6 @@ Problem Constraints
 1 <= N, M <= 105
 1 <= A[i] <= 109
 0 <= L <= R < N
-
-
 */
 package com.venkatsca.prefixArray;
 
