@@ -14,6 +14,7 @@ public class RichestCustomerWealth{
             }
             maxWealth = Math.max(maxWealth,totalCustCash);
         }
+        //check
         
         return maxWealth;
     }
