@@ -41,7 +41,7 @@ public static void main(String[] args) {
 		
 	}
 	
-	ArrayList<ArrayList<Integer>> al=Solution.antiDiagonalSolution2(A);
+	ArrayList<ArrayList<Integer>> al=AntiDiagonalSolution2.antiDiagonalSolution2(A);
 	
 	for(ArrayList<Integer> ele:al) {
 		System.out.println("...."+ele);
