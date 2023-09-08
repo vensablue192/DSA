@@ -6,7 +6,7 @@ import java.util.List;
 public class PrincipalDiagonalSum {
 
 	public static void main(String[] args) {
-ArrayList<ArrayList<Integer>> A=new ArrayList<ArrayList<Integer>>();
+		ArrayList<ArrayList<Integer>> A=new ArrayList<ArrayList<Integer>>();
 		
 		ArrayList<Integer> al1=new ArrayList<Integer>();
 		al1.add(1);
