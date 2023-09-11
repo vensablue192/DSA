@@ -8,7 +8,7 @@ Find the minimum time in seconds to make all elements of the array equal.
 *  
 *  We can change the array [4,4,4,4,4]
 */
-package com.venkatsca.Arrays;
+package com.venkates.Arrays;
 
 public class ModifyingToEqual {
 

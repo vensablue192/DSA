@@ -23,7 +23,7 @@ Problem Constraints
 1 <= A[i] <= 109
 0 <= L <= R < N
 */
-package com.venkatsca.prefixArray;
+package com.venkates.prefixArray;
 
 import java.util.Arrays;
 

@@ -4,7 +4,7 @@ Count the number of elements that have at least 1 elements greater than itself.
 A = [3, 1, 2]  -- > 2
 A = [5, 5, 3]  -- > 1
 */
-package com.venkatsca.Arrays;
+package com.venkates.Arrays;
 
 public class MinOneElementGreaterThanItself {
 	public static void main(String[] args) {

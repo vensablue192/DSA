@@ -37,7 +37,7 @@
 	 * for the provided input. Use this to improve your problem understanding and
 	 * test edge cases
 	 */
-package com.venkatsca.carryForwardSubArray;
+package com.venkates.carryForwardSubArray;
 
 import java.util.ArrayList;
 import java.util.Collections;

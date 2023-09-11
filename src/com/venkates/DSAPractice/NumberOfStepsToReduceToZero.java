@@ -1,4 +1,4 @@
-	package com.venkat.DSAPractice;
+	package com.venkates.DSAPractice;
 
 public class NumberOfStepsToReduceToZero {
 

@@ -2,7 +2,7 @@
  * Return the second largest element. If no such element exist then return -1.
  * */
 
-package com.venkatsca.Arrays;
+package com.venkates.Arrays;
 
 import java.util.Arrays;
 

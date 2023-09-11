@@ -48,7 +48,7 @@ The subarray of A from 1 to 3 is [3, 2, 6].
 Explanation 2:
 The subarray of A from 0 to 1 is [4, 2].
 */
-package com.venkatsca.carryForwardSubArray;
+package com.venkates.carryForwardSubArray;
 
 import java.util.ArrayList;
 

@@ -50,7 +50,7 @@ Explanation 2:
  There is no subsequence "AG" in the given string.
 */
 
-package com.venkatsca.carryForwardSubArray;
+package com.venkates.carryForwardSubArray;
 
 public class SpecialSubSequences {
 

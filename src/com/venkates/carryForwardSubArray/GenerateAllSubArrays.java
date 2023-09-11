@@ -38,7 +38,7 @@ All the subarrays of the array are returned. There are a total of 6 subarrays.
 For Input 2:
 All the subarrays of the array are returned. There are a total of 10 subarrays.
 */
-package com.venkatsca.carryForwardSubArray;
+package com.venkates.carryForwardSubArray;
 
 import java.util.ArrayList;
 

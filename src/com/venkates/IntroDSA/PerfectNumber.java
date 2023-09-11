@@ -1,4 +1,4 @@
-package com.venkatSca.IntroDSA;
+package com.venkates.IntroDSA;
 
 public class PerfectNumber {
 

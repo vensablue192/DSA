@@ -1,5 +1,5 @@
 /*Given an array A of size N. You need to find the sum of Maximum and Minimum element in the given array.*/
-package com.venkatsca.Arrays;
+package com.venkates.Arrays;
 
 public class MaxMinSum {
 	

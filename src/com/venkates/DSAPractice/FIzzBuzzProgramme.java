@@ -1,4 +1,4 @@
-package com.venkat.DSAPractice;
+package com.venkates.DSAPractice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +20,7 @@ public class FIzzBuzzProgramme {
 	        	
 	        	}
 	        	else if(i%5 == 0) {
-	        		fizzBuzzArray.add("Buzz");
-	        	
+	        		fizzBuzzArray.add("Buzz");        	
 	        	}
 	        	else
 	        	{

@@ -6,7 +6,7 @@
  * B= 2,3
  * */
 
-package com.venkatsca.Arrays;
+package com.venkates.Arrays;
 
 import java.util.Arrays;
 

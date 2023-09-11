@@ -43,7 +43,7 @@ Removing arr[2] from the given array modifies arr[] to { 1, 1 } such that arr[0]
 Therefore, the required output is 3.
  * 
  * */
-package com.venkatsca.prefixArray;
+package com.venkates.prefixArray;
 
 import java.util.Arrays;
 
