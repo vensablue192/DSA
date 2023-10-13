@@ -8,15 +8,31 @@ public class CountTheNumberOfFactors {
 
 	public static int countTheFactors(int number) {
 		int count=0;
+		
+		/* Number = 9
+		 * Finding out the number of iterations required:
+		 * 
+		 * i    number/i
+		 * 1    9 
+		 * 3    3 
+		 * 9    1
+		 * 
+		 * repetition point (deciding the number of iterations required): 
+		 * i > number/i
+		 * i^2 > number
+		 * i > square root ( number )
+		 * 
+		 */
+		
 		int iterations = (int)Math.sqrt(number);
-		System.out.println("iterations ..."+iterations);
+		
 		for(int i=1;i <= iterations;i++) {
 			if(number%i == 0) {
 			if(i != number/i) {
 				count = count + 2;	
 			}
 			else{
-				count++;
+				count++; // For perfect squares factors will be repeated hence count is incremented by only 1. example 100.
 			}
 		}
 		
