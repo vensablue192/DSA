@@ -100,3 +100,29 @@ public class FrequencyOfElementQuery {
 	 }
 
 }
+
+
+// Implementation without using lambda
+/*-public class Solution {
+    public int[] solve(int[] A, int[] B) {
+        HashMap<Integer, Integer> freq = new HashMap<>();
+        for(int i = 0 ; i < A.length ; i++){
+            if(freq.containsKey(A[i])){
+                freq.put(A[i], freq.get(A[i]) + 1);
+            }
+            else{
+                freq.put(A[i], 1);
+            }
+        }
+        int[] ans = new int[B.length];
+        for(int i = 0 ; i < B.length ; i++){
+            if(freq.containsKey(B[i])){
+                ans[i] = freq.get(B[i]);
+            }
+            else{
+                ans[i] = 0;
+            }
+        }
+        return ans;
+    }
+}*/
